@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Developer Portfolio</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+</head>
+<body class="bg-gray-800 text-white min-h-screen flex flex-col items-center justify-center">
+  <!-- Navigation Dot -->
+  <div class="fixed top-24 flex justify-center w-full">
+    <div class="h-4 w-4 rounded-full bg-white border-2 border-white"></div>
+  </div>
+
+  <!-- Main Content -->
+  <div class="container mx-auto px-6 py-16 flex flex-col md:flex-row items-center justify-center gap-8 max-w-6xl">
+    <!-- Profile Section -->
+    <div class="relative">
+      <div class="w-64 h-64 relative">
+        <div class="absolute inset-0 bg-gray-700 rounded-full opacity-20"></div>
+        <div class="absolute inset-0 transform -translate-x-4 -translate-y-4">
+          <div class="w-64 h-64 rounded-full overflow-hidden border-4 border-gray-700">
+            <img src="r_portrait.png" alt="Profile Picture" class="w-full h-full">
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Info Section -->
+    <div class="max-w-lg">
+      <h1 class="text-6xl font-bold mb-4">Hamdi Bougattaya</h1>
+      <p class="text-xl mb-8">
+        Senior Full Stack Java Developer & Kafka Specialist | Google Certified Professional Cloud Architect | Google Certified Associate Cloud Engineer | Red Hat Certified Cloud-Native Developer
+      </p>
+      
+      <!-- Social Icons and CV Button -->
+      <div class="flex flex-wrap items-center gap-4">
+        <a href="https://www.linkedin.com/in/hb12devtn" class="bg-white text-gray-800 p-2 w-10 h-10 flex items-center justify-center rounded">
+          <i class="fab fa-linkedin-in"></i>
+        </a>
+        <a href="https://github.com/hb12devtn" class="bg-white text-gray-800 p-2 w-10 h-10 flex items-center justify-center rounded">
+          <i class="fab fa-github"></i>
+        </a>
+        <a href="hb_cv.pdf" class="ml-2 bg-white text-gray-800 px-4 py-2 rounded flex items-center gap-2 hover:bg-gray-200 transition-colors duration-300">
+          <i class="fas fa-download"></i>
+          <span class="font-medium">Download CV</span>
+        </a>
+      </div>
+    </div>
+  </div>
+  </script>
+</body>
+</html>
